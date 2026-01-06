@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//Write a program to Check given number is a multiple of 8 or not and return a suitable message.
 
 public class Program4 {
     

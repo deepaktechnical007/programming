@@ -1,3 +1,4 @@
+// 2.Write a program to Check the given number is even number or odd number then print suitable message
 public class Program5 {
 
     public static void evenAndOdd(int a) {
@@ -12,7 +13,7 @@ public class Program5 {
 
     public static void main(String[] args) {
 
-        evenAndOdd(20);
+        evenAndOdd(21);
 
     }
 }
