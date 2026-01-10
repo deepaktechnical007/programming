@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class ConvertDecimalToBinary {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number : ");
-        int decimal = sc.nextInt();
-        int binary = 0;
-        int pow = 1;
 
-        while (decimal > 0) {
+        System.out.print("Enter a decimal number: ");
+        int num = sc.nextInt();
 
-            binary += (binary % 2) + pow;
-            decimal /= 2;
-            pow *= 10;
+        String binary = "";
+
+        while (num > 0) {
+            binary = (num % 2) + binary;
+            num = num / 2;
         }
-        System.out.println(binary);
+
+        System.out.println("Binary value = " + binary);
     }
 }
