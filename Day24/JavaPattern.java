@@ -30,13 +30,12 @@ public class JavaPattern {
             }
             System.out.println();
         }
-            for (int col = 1; col <= num; col++) {
-                if (row == 1 || col == 1 || col == num || row == (num + 1) / 2)
-                    System.out.print("*" + " ");
-                else
-                    System.out.print(" " + " ");
-            }
+//            for (int col = 1; col <= num; col++) {
+//                if (row == 1 || col == 1 || col == num || row == (num + 1) / 2)
+//                    System.out.print("*" + " ");
+//                else
+//                    System.out.print(" " + " ");
+//            }
             System.out.println();
         }
     }
-}
